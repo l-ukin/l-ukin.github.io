@@ -6,12 +6,9 @@ body{
 h1{
     text-align: center;
     color:rgb(55, 30, 30);
-    font-size: 45;
-    font-weight: bold;
 }
 
 h2{
     text-align: center;
     color:indigo;
-    font-size: 20;
 }
