@@ -17,3 +17,13 @@ p{
     font-style:italic;
 }
 
+/* Ensures images are square and responsive */
+.oval-image {
+    max-width: 25%; /* Reduce the max width to make the image smaller */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Slight rounding for a softer look, adjust as needed */
+    object-fit: contain; /* Ensures the entire image fits within the container */
+    display: block; /* Ensures the image is treated as a block element for styling */
+    margin: 0 auto; /* Centers the image */
+    padding: 10px; /* Adds padding around the image */
+ }
